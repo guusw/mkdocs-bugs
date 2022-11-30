@@ -1,0 +1,20 @@
+---
+authors: Fragcolor & contributors
+license: CC-BY-SA-4.0
+---
+
+
+# ECDSA.Seed
+
+<div class="sh-parameters" markdown="1">
+| Name | - {: #sh-flags-row} | Description | Default | Type |
+|------|---------------------|-------------|---------|------|
+| `<input>` || | | `String` |
+| `<output>` || | | `Bytes` |
+| `Compressed` |  | If the output PublicKey should use the compressed format. | `false` | `Bool` |
+
+</div>
+
+
+
+--8<-- "includes/license.md"

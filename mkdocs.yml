@@ -1,0 +1,59 @@
+edit_uri: ''
+repo_url: https://github.com/fragcolor-xyz/shards/
+site_name: Fragcolor documentation
+site_url: https://docs.fragcolor.xyz
+copyright: Copyright © 2021 Fragcolor Pte. Ltd.
+extra:
+  generator: false
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - md_in_html
+  - toc:
+      permalink: true
+plugins:
+  - search:
+      separator: '[\s\-\.]'
+  - macros
+extra_css:
+  - style_overrides.css
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.suggest
+  font:
+    code: Fira Code
+    text: Montserrat
+  language: en
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+use_directory_urls: true
